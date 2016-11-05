@@ -106,6 +106,8 @@ $(document).ready(function() {
        "images/homepage/us_army.jpg",
        "images/homepage/satkirin_kaur_khalsa.jpg",
        "images/homepage/narinder_singh_kapany.jpg",
+       "images/homepage/arpinder_kaur.jpg",
+       "images/homepage/fauja_singh.jpg"
         ],  {duration: 2000, fade: 750});
     });
   })
@@ -146,5 +148,5 @@ $(document).ready(function() {
   -------------------------------*/
   new WOW({ mobile: false }).init();
 
-  });
+});
 

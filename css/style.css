@@ -13,8 +13,11 @@ html {
   font-size: 100%;
 }
 
-
 /* Typography */
+em {
+  font-size: 25px;
+}
+
 h1,h2,h3, .btn {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -23,7 +26,7 @@ h1,h2,h3, .btn {
 
 h1 {
   font-weight: bold;
-  font-size: 90px;
+  font-size: 70px;
 }
 
 h2 {
@@ -117,7 +120,7 @@ a:focus {
 
 /* section title */
 .section-title {
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 #about .section-title,
 #menu .section-title {
@@ -188,11 +191,20 @@ a:focus {
   position: relative;
 }
 
+#home .text {
+  width: 90%;
+  margin: auto;
+}
+
+#home .text p {
+  font-size: 20px;
+}
+
 #home .gradient-overlay {
   background: #c21500; /* fallback for old browsers */  
   background: -webkit-linear-gradient(to left, #c21500 , #ffc500); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #c21500 , #ffc500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  opacity: 0.3;      
+  opacity: 0.5;      
   position: absolute;
   top: 0;
   width: 100%;
@@ -213,7 +225,19 @@ a:focus {
 #home .btn:focus {
   color: #c21500;
 }
-
+#home .proclamation-link {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+}
+#home .proclamation-link .proclamation {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-image: url('../images/icons/proclamation.png');
+  width: 64px;
+  height: 64px;
+}
 
 /* Navigation section */
 .navbar-default {
@@ -278,9 +302,16 @@ a:focus {
 #feature .feature-thumb {
   background-color: #ffffff;
   position: relative;
-  padding: 40px;
-  margin-top: 32px;
+  padding: 20px;
+  margin-top: 70px;
   transition: all 0.4s ease-in-out;
+  min-height: 237px;
+}
+#feature a {
+  color: inherit;
+}
+#feature a:first-child .feature-thumb {
+  margin-top: 30px;
 }
 #feature .feature-thumb:hover {
   background-color: #ffc500;
@@ -297,7 +328,7 @@ a:focus {
   margin: 0 auto;
   top: 0;
   margin-top: -70px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   position: relative;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -323,11 +354,14 @@ a:focus {
 #feature .feature-icon .fa.turban {
   background-image: url("../images/icons/turban.png");
 }
-#feature .feature-icon .fa.storytelling {
-  background-image: url("../images/icons/storytelling.png");
+#feature .feature-icon .fa.hungry {
+  background-image: url("../images/icons/hungry.png");
+}
+#feature .feature-icon .fa.flag {
+  background-image: url("../images/icons/flag.png");
 }
 #feature .feature-icon .fa.gala {
-  background-image: url("../images/icons/gala.ico");
+  background-image: url("../images/icons/gala.png");
 }
 
 #feature h3 {
@@ -364,6 +398,17 @@ a:focus {
   font-weight: 400;
   padding-top: 2px;
   padding-bottom: 2px;
+}
+#about #slides {
+  z-index: 1
+}
+#about #text {
+  float: none;
+  width: 100%;
+  z-index: 0;
+}
+#about #text h3 {
+  margin-top: 0;
 }
 
 
@@ -411,6 +456,10 @@ a:focus {
 /* Menu section */
 #menu .media {
   padding-bottom: 20px;
+}
+
+#menu a {
+  color: inherit;
 }
 
 #menu .media-object img {
