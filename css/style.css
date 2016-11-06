@@ -16,7 +16,8 @@ html {
 /* Typography */
 em {
   font-size: 22px;
-  /*color: #337ab7;*/
+  text-decoration: underline;
+  color: #23527c;
   font-weight: bold;
 }
 
