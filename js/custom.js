@@ -132,7 +132,7 @@ $(document).ready(function() {
     $('#menu').parallax("100%", 0.3);
     $('#team').parallax("100%", 0.3);
     $('#gallery').parallax("100%", 0.1);
-    $('#contact').parallax("100%", 0.2);
+    $('#footer').parallax("100%", 0.2);
   }
   initParallax();
 
