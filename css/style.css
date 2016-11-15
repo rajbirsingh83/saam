@@ -413,6 +413,15 @@ a:focus {
 #about #text h3 {
   margin-top: 0;
 }
+#about #text ul {
+  list-style-position: inside;
+  padding-bottom: 10px;
+}
+#about #text ul li {
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 28px;
+}
 
 
 
@@ -510,6 +519,11 @@ a:focus {
 
 #team .oonee img {
   top: calc(50% - 94px);
+}
+
+#team .sjg {
+  background: url(../images/sponsors/sjg.jpg) 0 0 no-repeat;
+  background-size: cover;
 }
 
 #team .team-thumb {
