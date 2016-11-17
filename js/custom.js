@@ -148,5 +148,17 @@ $(document).ready(function() {
   -------------------------------*/
   new WOW({ mobile: false }).init();
 
+
+
+  /* donate form
+  -------------------------------*/
+  var urlParam = function(name) {
+    var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+    return results[1] || 0;
+  };
+  if(urlParam('isDonateByPaypalEnabled')) {
+    $('footer form').removeClass('hide');
+  }
+
 });
 
