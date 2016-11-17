@@ -157,7 +157,9 @@ $(document).ready(function() {
     return results[1] || 0;
   };
   if(urlParam('isDonateByPaypalEnabled')) {
-    $('footer form').removeClass('hide');
+    var form = $('footer form');
+    form.attr('target', '_blank');
+    form.removeClass('hide');
   }
 
 });
