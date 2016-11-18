@@ -17,12 +17,20 @@ html {
   display: none !important;
 }
 
+.donate-form input[type="image"] {
+  vertical-align: middle;
+}
+
 /* Typography */
 em {
   font-size: 22px;
   text-decoration: underline;
   color: #23527c;
   font-weight: bold;
+}
+
+sub {
+  font-size: 100%;
 }
 
 h1,h2,h3, .btn {
@@ -790,6 +798,9 @@ footer .fa.fa-facebook-official {
 }
 footer form {
   margin-top: 30px;
+}
+footer form input[type="image"] {
+  width: 190px;
 }
 
 

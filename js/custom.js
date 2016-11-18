@@ -149,6 +149,10 @@ $(document).ready(function() {
   new WOW({ mobile: false }).init();
 
 
+  /* tooltips
+  -------------------------------*/
+  $(document).tooltip();
+
 
   /* donate form
   -------------------------------*/
@@ -157,7 +161,7 @@ $(document).ready(function() {
     return results[1] || 0;
   };
   if(urlParam('isDonateByPaypalEnabled')) {
-    var form = $('footer form');
+    var form = $('.donate-form');
     form.attr('target', '_blank');
     form.removeClass('hide');
   }
