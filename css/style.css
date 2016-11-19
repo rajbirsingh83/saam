@@ -510,32 +510,14 @@ a:focus {
   padding-bottom: 0px;
 }
 
+#team .section-title {
+  padding-bottom: 0;
+}
+
 #team .team-des h4 {
   color: #666;
   padding-top: 0px;
   padding-bottom: 10px;
-}
-
-#team img {
-  width: 100%;
-  position: absolute;
-}
-
-#team .santa-clara img {
-  top: calc(50% - 50px);
-}
-
-#team .sikh-coalition img {
-  top: calc(50% - 73px);
-}
-
-#team .oonee img {
-  top: calc(50% - 94px);
-}
-
-#team .sjg {
-  background: url(../images/sponsors/sjg.jpg) 0 0 no-repeat;
-  background-size: cover;
 }
 
 #team .team-thumb {
@@ -543,6 +525,11 @@ a:focus {
   position: relative;
   height: 215px;
   background-color: #ffffff;
+}
+
+#team .team-thumb,
+#team .join-team {
+  margin-top: 50px;
 }
 
 #team .team-des {
@@ -607,6 +594,39 @@ a:focus {
   background: #d85836;
 }
 
+#team .gokarn {
+  background: #274472;
+}
+
+#team img {
+  width: 100%;
+  position: absolute;
+}
+
+#team .santa-clara img {
+  top: calc(50% - 50px);
+}
+
+#team .sikh-coalition img {
+  top: calc(50% - 73px);
+}
+
+#team .oonee img {
+  top: calc(50% - 94px);
+}
+
+#team .sjg {
+  background: url(../images/sponsors/sjg.jpg) 0 0 no-repeat;
+  background-size: cover;
+}
+
+#team .gokarn img {
+  top: calc(50% - 40px);
+}
+
+#team .tycho img {
+  top: calc(50% - 80px);
+}
 
 
 /* Gallery section */
