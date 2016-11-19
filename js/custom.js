@@ -155,7 +155,7 @@ $(document).ready(function() {
 
 
   /* donate form
-  -------------------------------*/
+  -------------------------------
   var urlParam = function(name) {
     var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
     return results[1] || 0;
@@ -165,6 +165,7 @@ $(document).ready(function() {
     form.attr('target', '_blank');
     form.removeClass('hide');
   }
+  */
 
 });
 
