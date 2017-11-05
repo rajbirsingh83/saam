@@ -366,6 +366,12 @@ a:focus {
   margin: 0;
   padding: 0;
 }
+#feature .feature-icon .fa.movie {
+  background-image: url("../images/icons/movie.png");
+}
+#feature .feature-icon .fa.gallery {
+  background-image: url("../images/icons/gallery.png");
+}
 #feature .feature-icon .fa.turban {
   background-image: url("../images/icons/turban.png");
 }
